@@ -1,0 +1,11 @@
+<?php
+
+return [
+    'driver'   => 'pdo_mysql',
+    'dbname'   => '',
+    'host'     => 'localhost',
+    'user'     => 'root',
+    'password' => '',
+    'charset'  => 'utf8mb4',
+    'debug'    => true
+];

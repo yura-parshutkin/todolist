@@ -1,0 +1,10 @@
+{{#each tasks}}
+    <li class="task {{# if isCompleted }} completed {{/if}}">
+        <div class="view">
+            <input data-id="{{ id }}" class="toggle js-check-complete" type="checkbox" {{# if isCompleted }}  checked="checked" {{/if}}>
+            <label>{{ name }}</label>
+            <button data-id="{{ id }}" class="destroy js-remove"></button>
+        </div>
+        <input class="edit" value="{{ name }}">
+    </li>
+{{/each}}

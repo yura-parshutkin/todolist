@@ -1,0 +1,21 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+	<section class="todoapp" id="todo">
+		<header class="header">
+			<h1>todos</h1>
+			<input class="new-todo js-new" placeholder="What needs to be done?" autofocus>
+		</header>
+		<section class="main">
+			<input class="toggle-all js-complete-all" type="checkbox" data-complete="false">
+			<label for="toggle-all">Mark all as complete</label>
+			<ul class="todo-list js-task-list"></ul>
+		</section>
+		<footer class="footer js-panel">
+			<span class="todo-count"><strong>0</strong> item left</span>
+			<ul class="filters js-filter-list">
+			</ul>
+			<button class="clear-completed js-clear-completed">Clear completed</button>
+		</footer>
+	</section>
+{% endblock %}

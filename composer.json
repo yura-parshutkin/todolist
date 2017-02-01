@@ -1,0 +1,15 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "~2.2",
+        "robmorgan/phinx": "^0.6.6",
+        "symfony/validator": "^3.2",
+        "symfony/security": "^3.2",
+        "twig/twig": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+/node_modules/
+/web/assets/
+/.idea/
+/vendor/
+/phinx.yml
+/app/config/parameters.php
